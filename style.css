@@ -1,0 +1,107 @@
+#aboutMeP {
+  color: black;
+  font-style: roboto ;
+  line-height: 1.4;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Gill Sans", sans-serif;
+    margin-bottom: 3px ;
+    margin-top: 1em;
+    font-size: 4em;
+}
+
+header nav {
+    margin-top: 40px;
+}
+
+header nav a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    max-width: 800px;
+    margin: 40px 0;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 3px; 
+    text-align: left;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+
+
+.news-feed {
+    width: 600px;
+    height: 200px; /* Fixed height for scroll */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    overflow-y: scroll; /* Enables vertical scrolling */
+}
+
+.news-feed p {
+    margin: 8px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
