@@ -24,13 +24,14 @@ body {
     background: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 50px;
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
